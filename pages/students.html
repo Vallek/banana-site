@@ -5,6 +5,7 @@
 	<title>Студенты - Сайт группы</title>
 	<link rel="stylesheet" href="../css/style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+	<script async src="../js/popup.js"></script>
 </head>
 <body class="page">
 	<header class="header">
@@ -12,10 +13,10 @@
 		<div class="site-menu">
 			<a class="menu-link" href="../index.html">Главная</a>
 			<a class="menu-link active" href="">Студенты</a>
-			<a class="menu-link" href="">О курсе</a>
-			<a class="menu-link" href="">Контакты</a>
+			<a class="menu-link" href="about.html">О курсе</a>
+			<a class="menu-link" href="contacts.html">Контакты</a>
 		</div>
-		<a href="" class="login">Войти</a>
+		<a href="" class="login-button">Войти</a>
 	</header>
 	<main class="students-main">
 		<h1 class="main-heading">Студенты потока 08.02.2020</h1>
@@ -45,6 +46,14 @@
 	<footer class="footer">
 		<p>2020 &copy; <a class="copyright-link" href="">учбеный центр</a></p>
 	</footer>
+	<div class="login-popup">
+		<h2 class="login-heading">Войти на сайт</h2>
+		<form class="login-form" action="" method="GET">
+			<input class="login-input" name="login" type="text">
+			<input class="password-input" name="password" type="password">
+			<button class="popup-button" type="submit">Войти</button>
+		</form>
+	</div>
 	<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
 </body>
 </html>

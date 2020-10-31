@@ -26,6 +26,22 @@
 	margin: 20px 20px 20px 0;
 }
 
+.logo:hover {
+	/*transform: rotate(360deg);
+	transition: transform 1s ease-in;*/
+	animation: rotate-logo 1s linear infinite reverse;
+}
+
+@keyframes rotate-logo {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
 .site-menu {
 	display: flex;
 	flex-wrap: wrap;
@@ -175,6 +191,8 @@
 	min-height: 418px;
 	padding: 26px 28px 56px;
 	background-color: white;
+	border: 1px solid #213B7E;
+	box-shadow: 5px 5px 4px 0 rgba(0,0,0,0.25);
 }
 
 .login-form {
@@ -202,6 +220,28 @@
 	color: #FFFFFF;
 	background-color: #EA6113;
 	border: none;
+}
+
+/* About */
+.about-video {
+	width: 100%;
+	height: 40vw;
+}
+
+.nature-video {
+	width: 100%;
+	height: 40vw;
+}
+
+/* Contacts */
+.google-map {
+    width: 100%;
+    height: 500px;
+}
+
+.yandex-map {
+    width: 100%;
+    height: 500px;
 }
 
 /* JS */
